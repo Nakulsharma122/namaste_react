@@ -1,3 +1,120 @@
-#heading {
-    color: red;
+.header {
+    display :flex;
+    justify-content : space-between;
+    border: 2px solid black;
+    background-color: beige;
 }
+
+.logo{
+    width : 150px;
+    /* background-color: beige; */
+}
+.nav-item {
+    padding: 0px 20px;
+}
+
+.nav-item > ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type:none;
+}
+
+.nav-item > ul > li{
+    padding: 5px;
+    padding-right: 10px;
+    margin:10px;
+}
+
+.res-card{
+    /* height :400px; */
+    width: 200px;
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+    
+}
+
+.res-card:hover{
+    cursor: pointer;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.res-logo{
+    width: 90%;
+    padding: 10px;
+}
+.res-name{
+    text-align: center;
+}
+
+.res-container{
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.filter-btn{
+    margin: 10px;
+ margin-left: 500px;
+    cursor: pointer;
+}
+
+.login{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.filter{
+    display: flex;
+    margin: 10px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .shimmer-card {
+    width: 200px;
+    height: 400px;
+    background-color: #d0c8c8;
+    margin: 20px;
+    border-radius: 11px;
+  }
+  
+  .restaurant-item {
+    margin-bottom: 10px; /* Add space between list items */
+    padding: 10px; /* Add padding inside list items */
+    border-bottom: 1px solid #ccc; /* Optional: Add a bottom border for better separation */
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .menu {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li.restaurant-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .restaurant-item b {
+    margin-right: 5px;
+  }
+
+  .user-card {
+    padding:30px;
+    border: 2px solid black;
+
+  }
