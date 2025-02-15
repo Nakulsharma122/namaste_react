@@ -31,6 +31,7 @@
     margin: 10px;
     padding:20px;
     text-align: center;
+    
 }
 
 .res-card:hover{
@@ -87,7 +88,9 @@
     padding: 10px; /* Add padding inside list items */
     border-bottom: 1px solid #ccc; /* Optional: Add a bottom border for better separation */
   }
-
+  a{
+    text-decoration: none;
+  }
 
   .menu {
     padding: 20px;
@@ -108,4 +111,10 @@
   
   .restaurant-item b {
     margin-right: 5px;
+  }
+
+  .user-card {
+    padding:30px;
+    border: 2px solid black;
+
   }
